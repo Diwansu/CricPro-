@@ -1,0 +1,59 @@
+/* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins&display=swap');
+  body{
+    background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-left: 20px;
+    font-family:Nunito Sans;
+    font-size:medium  ;
+  }
+
+  #logo{
+    display: flex;
+    justify-content:flex-end;
+    padding:10px;
+  }
+  table{
+    background-color: aliceblue;
+    border: 1px solid black;
+ border-collapse:collapse; 
+ padding:10px;
+ width:65vw;
+ }
+
+  tr{
+    border-bottom: 1px solid gray;
+  }
+
+  th{
+    padding-left:15px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    text-align: start;
+    color:white;
+    background-color: rgb(218, 74, 27);
+  }
+
+  td{
+    padding:10px; 
+    }
+
+  .cont{
+    padding-left: 90px;
+  }
+  .cric{
+    padding-left: 15px;
+  }
+  
+
+  h1{
+    font-size:38px;
+    }
+    
+    #head{
+      display: flex;
+      flex-flow:column nowrap;
+      justify-content: space-around;
+    }

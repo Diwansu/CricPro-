@@ -17,13 +17,18 @@
       <h1> <strong>ICC WORLD CUP 2011</strong></h1>
       <h3>India Vs Srilanka ScoreCard</h3>
 
+        <div id="imgDivContainer">
+                <img src="" alt="" id="information">
+                <span onclick="removeDisplay()" id="crossButton">&nbsp;&nbsp;X&nbsp;&nbsp;</span>
+            </div>
+
       <table>
         <tr id="kalar">
           <th colspan="5" align="left" >India Innings</th>
           <th colspan="2" align="right">277-4(48.2)</th>
         </tr>
         <tr>
-          <td colspan="2" class="cric">Batsman</td>
+          <td colspan="2" >Batsman</td>
           <td>R</td>
           <td>B</td>
           <td>4s</td>
@@ -31,7 +36,7 @@
           <td>SR</td>
            </tr>
         <tr>
-          <td class="cric">Virender Sehwag</td>
+          <td class="cric" onclick="display(0)">Virender Sehwag</td>
           <td class="cont">Ibw b L Malinga</td>
           <td>0</td>
           <td>2</td>
@@ -40,7 +45,7 @@
           <td>0.00</td>
         </tr>
         <tr>
-          <td class="cric">Sachin Tendulkar</td>
+          <td class="cric" onclick="display(1)">Sachin Tendulkar</td>
           <td class="cont">c K Sangakkara b L Malinga</td>
           <td>18</td>
           <td>14</td>
@@ -49,7 +54,7 @@
           <td>128.57</td>
         </tr>
         <tr>
-          <td class="cric">Gautam Gambhir</td>
+          <td class="cric" onclick="display(2)">Gautam Gambhir</td>
           <td class="cont">b T Perera</td>
           <td>97</td>
           <td>122</td>
@@ -59,7 +64,7 @@
         </tr>
 
         <tr>
-          <td class="cric">Virat Kohli</td>
+          <td class="cric"onclick="display(3)">Virat Kohli</td>
           <td class="cont">c & b T Dilshan</td>
           <td>35</td>
           <td>49</td>
@@ -69,7 +74,7 @@
         </tr>
 
        <tr>
-          <td class="cric">MS Dhoni (c & wk)</td>
+          <td class="cric"onclick="display(4)">MS Dhoni (c & wk)</td>
           <td class="cont">not out</td>
           <td>91</td>
           <td>79</td>
@@ -79,7 +84,7 @@
       </tr>
 
         <tr>
-          <td class="cric">Yuvraj Singh</td>
+          <td class="cric" onclick="display(5)">Yuvraj Singh</td>
           <td class="cont">not out</td>
           <td>21</td>
           <td>24</td>
@@ -89,25 +94,26 @@
          </tr>
 
          <tr>
-          <td colspan="2" class="cric">Extras</td>
+          <td colspan="2" >Extras</td>
           <td colspan="4">15 (b 1, Ib 6, w 8 , nb 0, p 0) </td>
          </tr>
 
          <tr>
-          <td colspan="2" class="cric">Total</td>
+          <td colspan="2" >Total</td>
           <td colspan="3">277(4 wkts,48.2 Ov)</td>
          </tr>
          
          <tr>
-          <td class="cric">Did not bat</td>
-          <td class="cont" colspan="5"><span> Suresh Raina,</span> <span> Harbhajan Singh,</span> <span>Zaheer Khan,</span>  <span>Munaf Patel,</span>
-            <span>S Sreesanth</span></td>
+          <td>Did not bat</td>
+          <td class="cont" colspan="5">
+            <span class="cric" onclick="display(6)">Suresh Raina,</span><span  class="cric" onclick="display(7)">Harbhajan Singh,</span><span class="cric" onclick="display(8)">Zaheer Khan,</span><span class="cric" onclick="display(9)">Munaf Patel,</span><span class="cric" onclick="display(10)">S Sreesanth</span></td>
          </tr>
       </table>
      </div>
      
 
-    <footer class="footer">Made with ♥️ by Kalvian</footer>
+    <footer class="footer">Made with ♥️ by Diwanshu</footer>
   </section>
+   <script src="script.js"></script>
   </body>
 </html>
